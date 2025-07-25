@@ -1,17 +1,16 @@
-.gallery-slider {
-  display: flex;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduced size from 200px */
+  gap: 15px;
+  padding: 10px;
 }
 
-.slide {
-  min-width: 100%;
-  transition: 0.5s ease-in-out;
-}
-
-.gallery-slider img {
+.gallery-grid img {
   width: 100%;
   height: auto;
-  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  max-height: 120px; /* Control height */
+  object-fit: cover;
 }
