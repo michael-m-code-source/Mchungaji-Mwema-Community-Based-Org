@@ -142,7 +142,22 @@ We also teach children how to treat others with compassion, embrace diversity, a
     M-Pesa: <a href="tel:+254729317750">+254 729 317750</a>
     <button onclick="copyMpesaNumber()" class="copy-btn">Copy</button>
   </p>
-  <p>Or send directly to:<br><strong>Bank:</strong> Kenya Commercial Bank (KCB)<br><strong>Account Name:</strong> Mchungaji Mwema Community Based Organisation<br><strong>Account Number:</strong>1289082537 <br><strong>Branch:</strong> Karen</p>
+  <p>
+  <strong>Bank:</strong> Kenya Commercial Bank (KCB)<br>
+  <strong>Account Name:</strong> Mchungaji Mwema Community Based Organisation<br>
+  <strong>Account Number:</strong> <span id="acc-number">1289082537</span>
+  <button onclick="copyAccount()">Copy</button><br>
+  <strong>Branch:</strong> Karen
+</p>
+
+<script>
+  function copyAccount() {
+    const accountNumber = document.getElementById("acc-number").textContent;
+    navigator.clipboard.writeText(accountNumber).then(() => {
+      alert("Account number copied!");
+    });
+  }
+</script>
 </section>
 
 <section id="contact">
