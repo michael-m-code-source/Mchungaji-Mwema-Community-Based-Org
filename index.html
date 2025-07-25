@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCHUNGAJI MWEMA COMMUNITY BASED ORGANISATION PRESCHOOL</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f5f5f5; color: #333; }
+    header { background: #4CAF50; color: #fff; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 15px; }
+    header img { height: 40px; max-height: 40px; width: auto; }
+    nav { background: #333; padding: 10px; text-align: center; display: flex; align-items: center; justify-content: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .nav-wrapper { display: flex; align-items: center; justify-content: center; gap: 15px; }
+    section { padding: 20px; background: white; margin: 20px; border-radius: 8px; }
+    footer { background: #222; color: #fff; text-align: center; padding: 15px; }
+    .cta { background: #ff9800; padding: 10px 20px; color: #fff; display: inline-block; margin-top: 10px; text-decoration: none; border-radius: 5px; cursor: pointer; }
+    .gallery-slider { display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory; animation: scrollSlider 30s linear infinite; }
+    .gallery-slider img { flex-shrink: 0; width: 100%; max-width: 300px; height: auto; border-radius: 8px; scroll-snap-align: center; }
+    .mpesa-number { font-weight: bold; margin-top: 10px; color: #4CAF50; font-size: 1.1em; }
+    .copy-btn { background-color: #4CAF50; color: white; border: none; padding: 5px 10px; margin-left: 10px; border-radius: 5px; cursor: pointer; }
+    .popup-message {
+      display: none;
+      background-color: #e7f5e6;
+      color: #2e7d32;
+      border: 1px solid #c8e6c9;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    @keyframes scrollSlider {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+    #programs li p { margin: 8px 0; }
+  </style>
+  <script>
+    function showMpesaPopup() {
+      const popup = document.getElementById("thankYouPopup");
+      popup.style.display = "block";
+      setTimeout(() => {
+        popup.style.display = "none";
+      }, 5000);
+    }
+
+    function copyMpesaNumber() {
+      const number = "+254729317750";
+      navigator.clipboard.writeText(number).then(() => {
+        alert("M-Pesa number copied: " + number);
+      }, (err) => {
+        alert("Failed to copy M-Pesa number.");
+      });
+    }
+  </script>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  
+<div>  <div>
+    <h1>MCHUNGAJI MWEMA COMMUNITY BASED ORGANISATION</h1>
+   
+  </div>
+</header>
+
+<nav>
+  <div class="nav-wrapper">
+    <a href="#about">About</a>
+    <a href="#programs">Programs</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#get-involved">Get Involved</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+  <section id="about">
+  <h2>About Us</h2>
+  <p><strong>Mission:</strong> To provide quality early childhood education, food, and care to children in the Kuwinda slums through love, learning, and community support.</p>
+  <p><strong>Vision:</strong> A thriving future for every child through inclusive, community-led education.</p>
+  <p><strong>Goal:</strong> Nurturing young minds in the heart of Kuwinda slums, Lang’ata</p>
+  <p><strong>Our Story:</strong> Mchungaji Mwema Community Based Organisation (MMCBO)founded by local caregivers and supported by international donors (primarily from the U.S.), we support vulnerable children under 10 with education, meals, and play in a safe environment.</p>
+  MMCBO is a registered charitable community-based organization based at Kuwinda  Ward, Nairobi County. Founded and started its operations in 2017 and registered as a charitable community-based organization in 2021, under the Ministry of East African Community (EAC) Labour and Social Protection to address the social problems facing the children in the country through mentorship. Mchungaji Mwema is a Swahili word meaning a <strong>good shephard</strong> and aims to live by its name and become a beacon of blessings in the field of mentorship and education.</p>
+<P><strong>Facts about Kuwinda slum:</strong> Kuwinda is a low-income, informal settlement in Nairobi, Kenya, characterized by densely packed housing, limited access to basic services, and a high population density. Many households consist of 4-7 members living in cramped, one-room structures, often with earth floors and without running water, electricity, or proper sanitation. </P>
+<p>Due to the minimal educational opportunities, the unemployment rate is very high with most employed as casual workers in seasonal jobs. Some of the tasks include washing clothes, carrying heavy loads in the markets, pulling handcarts, draining the pit latrine and garbage collection. The more affluent tend to manage informal businesses, with most women operating road-side business units offering goods at cheaper rates. Men, on the other hand, prefer more manual based income generating activities such as carpentry, welding, and construction of houses.</p>
+  <h2>MMCBO core values</h2>
+  <p><strong>Empowerment:</strong> We ensure full empowerment of the underprivileged children and orphans by showing them that there is always something inside of them that can bring out the best in them. Through our various programs the children are able to feel empowered and hence impacting positive change in them.</p>
+  <p><strong>Honesty:</strong> As a charitable society we conduct our affairs in an honest manner and thus this will guarantee all our financiers and donors that nothing will be done outside the stipulated objective and all funds will be applied to the intended purpose and full accountability will be guaranteed.</p>
+  <p><strong>Transparency:</strong> For any organization to thrive there has to be a high level of transparency in its dealings with all bodies that are directly in contact with them, be it regulatory or direct accountability it is very key to handle all the operations in a transparent manner.</p>
+  <p><strong>Integrity:</strong> All the members of Mchungaji Mwema community Based Organisation and have unquestionable levels of integrity, this is a guaranteed virtue to all our associates and this will ensure a smooth flow in our dealings hence fostering growth of our foundation to high levels.</p>
+  <p><strong>Passion:</strong> Passion lies at the heart of everything we do. We are passionate about people, not issues and that’s what inspires us to create positive change for children that are driven by strategies based on logic and results.</p>
+  <p><strong>Drive:</strong> We have a relentless drive to do more, we never do anything halfhearted. All of our energy, expertise, influence and the resource needed will go into every project or program of change we are involved in. </p></section>
+
+<section id="programs">
+  <h2>Our Programs</h2>
+  <ol>
+    <li><strong>Early Childhood Education:</strong><br>
+      <p>The old saying goes – “Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.”</p>
+      <p>Education may arguable be the most crucial of commodities. Without easy access to knowledge and education, these remote communities and villages are tragically left behind, halting any chance of progressing and increasing quality of life for the area.</p>
+      <p>Our children are the future of tomorrow, and as a community, we must ensure we build a strong foundation in which these children will advance to higher heights. Our exclusive focus on early childhood guarantees that the child benefits from a grand start irrespective of their background furthermore creating an inbuilt confidence to allow the child prosper in any engagement with ‘outside world.’ In this regards, we aim at three key aspects namely: Literacy, Character Molding, and Talent Management.</p>
+    </li>
+    <li><strong>Daily Feeding Program:</strong><br>
+      <p>MMCBO provides 32 children with a warm and nutritious meal on a daily basis that is 5 days a week hence it is a daily challenge for the organization. For nearly all of these children their school meal is the only meal of the day. The project administers nutritious meals to effectively change the future of these disadvantaged children. Malnutrition during the first 1000 days of life, irreversibly stunts a child's body and brain development, permanently limiting their potential.</p>
+      <p>Parents struggle to earn enough to feed their children and malnutrition is prevalent. Many children are orphaned and cared for by relatives. Guardians raising children in an urban slum are faced by severe economic hardship and poor hygiene. Children do not know when they will eat next and the food is of poor nutritional quality. This results in malnutrition, potentially affecting the child's entire life by stunting their brain and body development.</p>
+    </li>
+    <li><strong>Spiritual & Moral Development:</strong><br>
+   As a faith-based community preschool, Mchungaji Mwema CBO places strong emphasis on nurturing the spiritual and moral foundation of every child. We introduce children to basic Christian values such as love, kindness, honesty, respect, and gratitude through daily prayers, Bible stories, songs, and memory verses. These lessons are shared in a fun and age-appropriate manner, helping children to grow in character and make good choices.
+     <li><strong>Counseling & Emotional Support:</strong><br>
+    we understand that emotional well-being is just as important as academic development. Many of the children we serve come from difficult backgrounds, including poverty, family struggles, or trauma. To support them, we create a nurturing, safe, and loving environment where each child feels seen, heard, and valued.
+
+Our teachers are trained to identify signs of emotional distress and provide basic guidance and care. For more serious cases, we work closely with community counselors, social workers, and local faith leaders to ensure children and families receive the help they need. Through regular check-ins, storytelling, play therapy, and one-on-one attention, we help children build confidence, express their feelings, and develop resilience.
+
+ </li>
+We also teach children how to treat others with compassion, embrace diversity, and develop a strong sense of responsibility within the school and their community. Through spiritual guidance and moral teaching, we aim to raise children who are not only prepared for school but also for life—with a heart for others and a strong moral compass. </li>
+    <li><strong>Play & Social Activities:</strong><br> At Mchungaji Mwema CBO Preschool, play is at the heart of our daily routine. We believe that young children learn best through play, which helps them develop essential life skills such as communication, problem-solving, creativity, and cooperation. Our program offers a variety of structured and free play activities including group games, storytelling, singing, dancing, and art projects. These activities not only promote cognitive and motor development but also foster friendships, build confidence, and create a safe and joyful environment where every child feels valued. Social interaction is encouraged to help children learn empathy, respect, and teamwork—skills that are vital both in school and in the wider community.</li>
+    <li><strong>Parental Support & Community Involvement:</strong><br> We actively engage parents through regular meetings, open days, and workshops on parenting, nutrition, and early childhood development. This strengthens the relationship between home and school, ensuring children receive consistent support. Our preschool also relies on community volunteers, local leaders, and well-wishers to assist in various areas—from storytelling and mentoring to helping with meals and maintenance. By involving the community, we create a sense of shared responsibility, promote unity, and ensure that every child has the support they need to thrive both inside and outside the classroom.</li>
+  </ol>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-slider">
+    <img src="images/lunchtime.jpeg" alt="Children learning in class">
+    <img src="images/afternoon.jpeg" alt="Children enjoying their meal">
+    <img src="images/story telling.jpeg" alt="Children playing in the school yard">
+    <img src="images/shirt donations.jpg" alt="Community event with parents and kids">
+    <img src="images/adenture.jpeg" alt="Classroom with children">
+    <img src="images/trip.jpeg" alt="Children learning in class">
+     <img src="images/graduation.jpeg" alt="grade 2 graduating">
+  </div>
+</section>
+
+<section id="get-involved">
+  <h2>Get Involved</h2>
+  <ul>
+    <li><strong>Sponsor a Child</strong> (monthly or one-time gift)</li>
+    <li><strong>Volunteer</strong> (local or remote opportunities)</li>
+    <li><strong>Partner With Us</strong> (corporate or church support)</li>
+  </ul>
+  <span onclick="showMpesaPopup()" class="cta">Donate Now via M-Pesa</span>
+  <div id="thankYouPopup" class="popup-message">✅ Thank you for donating to Mchungaji Mwema!</div>
+  <p class="mpesa-number">
+    M-Pesa: <a href="tel:+254729317750">+254 729 317750</a>
+    <button onclick="copyMpesaNumber()" class="copy-btn">Copy</button>
+  </p>
+  <p>Or send directly to:<br><strong>Bank:</strong> Kenya Commercial Bank (KCB)<br><strong>Account Name:</strong> Mchungaji Mwema Community Based Organisation<br><strong>Account Number:</strong>1289082537 <br><strong>Branch:</strong> Karen</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> Kuwinda Slums, Lang'ata, Nairobi County, Kenya</p>
+  <p><strong>Email:</strong> Mchungajimwemacommunbasedorg@gmail.com</p>
+  <p><strong>Phone:</strong> +254729317750</p>
+  <p><strong>Follow Us:</strong> Facebook | <!-- WhatsApp Contact -->
+<div style="margin-top: 10px;">
+  
+    <a href="https://wa.me/254729317750?text=Hello%20MMCBO%2C%20I%E2%80%99d%20like%20to%20support%20your%20work" target="_blank">+254 729 317750 (WhatsApp)</a>
+
+  </a>
+</div>
+ </p>
+  
+ <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mldlbjow"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label><br>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label><br>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label><br>
+  <button type="submit">Send</button>
+</form>
+</section>
+<script>
+  let index = 0;
+  const slides = document.querySelectorAll('.slide');
+
+  function showSlide() {
+    slides.forEach((slide, i) => {
+      slide.style.transform = `translateX(-${index * 100}%)`;
+    });
+    index = (index + 1) % slides.length;
+  }
+
+  setInterval(showSlide, 3000); // Change every 3 seconds
+</script>
+
+<footer>
+  <p>&copy; 2025 Mchungaji Mwema C.B.O. | Supported by friends from the U.S. and around the world.</p>
+</footer>
+
+</body>
+</html>
