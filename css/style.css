@@ -1,6 +1,6 @@
 /* Gallery section */
 #gallery {
-  padding: 40px 20px;
+  padding: 20px 20px;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -23,7 +23,7 @@
 
 /* Image styling */
 .gallery-grid img {
-  width: 100%;
+  width: 90%;
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
