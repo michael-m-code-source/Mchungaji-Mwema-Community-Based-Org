@@ -1,0 +1,17 @@
+.gallery-slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slide {
+  min-width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
