@@ -1,1 +1,1 @@
-# Mchungaji-Mwema-Comuunity-Based-Org
+# Mchungaji-Mwema-Community-Based-Org
