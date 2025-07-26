@@ -172,26 +172,34 @@ We also teach children how to treat others with compassion, embrace diversity, a
 </div>
  </p>
   
- <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mldlbjow"
-  method="POST"
-  enctype="multipart/form-data"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label><br>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label><br>
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label><br>
-  <button type="submit">Send</button>
-</form>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <!-- Stylish Contact Form -->
+  <form
+    action="https://formspree.io/f/mldlbjow"
+    method="POST"
+    enctype="multipart/form-data"
+    class="contact-form"
+  >
+    <label>
+      Your email:
+      <input type="email" name="email" required>
+    </label><br>
+
+    <label>
+      Your message:
+      <textarea name="message" rows="5" required></textarea>
+    </label><br>
+
+    <label>
+      Upload a file:
+      <input type="file" name="upload">
+    </label><br>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
 </section>
 
 
