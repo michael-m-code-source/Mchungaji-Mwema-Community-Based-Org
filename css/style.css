@@ -36,17 +36,6 @@
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-.contact-form {
-  max-width: 500px;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  font-family: Arial, sans-serif;
-}
-
 .contact-form {
   max-width: 500px;
   margin: 30px auto;
@@ -76,7 +65,7 @@
 
 .contact-form button {
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #28a745; /* green */
   color: white;
   border: none;
   border-radius: 6px;
@@ -87,3 +76,4 @@
 .contact-form button:hover {
   background-color: #218838;
 }
+
