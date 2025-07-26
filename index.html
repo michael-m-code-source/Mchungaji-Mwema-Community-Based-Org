@@ -174,7 +174,7 @@ We also teach children how to treat others with compassion, embrace diversity, a
   <h2>Contact Us</h2>
   <!-- Stylish Contact Form -->
  <!-- Stylish Contact Form -->
-<form
+<form id="contactForm" action="https://formspree.io/f/mldlbjow" method="POST">
   action="https://formspree.io/f/mldlbjow"
   method="POST"
   enctype="multipart/form-data"
@@ -208,7 +208,7 @@ We also teach children how to treat others with compassion, embrace diversity, a
   const confirmationMsg = document.getElementById("confirmationMsg");
 
   form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Stop default form action
+    e.preventDefault();
 
     const formData = new FormData(form);
 
@@ -219,19 +219,20 @@ We also teach children how to treat others with compassion, embrace diversity, a
         Accept: "application/json",
       },
     })
-      .then((response) => {
-        if (response.ok) {
-          confirmationMsg.style.display = "block";
-          form.reset(); // Reset the form
-        } else {
-          alert("Oops! Something went wrong. Please try again.");
-        }
-      })
-      .catch(() => {
-        alert("There was a problem sending your message.");
-      });
+    .then((response) => {
+      if (response.ok) {
+        confirmationMsg.style.display = "block";
+        form.reset();
+      } else {
+        alert("Oops! Something went wrong.");
+      }
+    })
+    .catch(() => {
+      alert("There was a problem submitting your message.");
+    });
   });
 </script>
+
 
 <footer>
   <p>&copy; 2025 Mchungaji Mwema C.B.O. | Supported by friends from the U.S. and around the world.</p>
